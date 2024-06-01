@@ -4,5 +4,4 @@
 ## Contributors
 
 * Professor Sue
-
 * Robert Stewart
