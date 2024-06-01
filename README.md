@@ -1,2 +1,8 @@
-# csd-340
-CSD340-J308 Web Development with HTML and CSS
+
+# CSD 340 Web Development with HTML and CSS
+
+## Contributors
+
+* Professor Sue
+
+* Robert Stewart
