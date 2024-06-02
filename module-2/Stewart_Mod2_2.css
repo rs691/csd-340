@@ -1,0 +1,76 @@
+/* requirements for the CSS file */
+
+/* font size for HTML and body */
+html, body {
+    font-size: 16px;
+}
+
+/* body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4em;
+    margin: 20px;
+}
+
+/* Styling for the paragraphs */
+p {
+    font-weight: 400;
+}
+
+/* Styling for the intro paragraph */
+.intro {
+    font-weight: bold;
+    text-indent: 2em; 
+}
+
+/* Styling for a specific sentence within a paragraph */
+.sentence {
+    color: blue;
+    /* Make the text italic */
+    font-style: italic; 
+}
+
+/* Styling for the h1 tag */
+h1 {
+    font-weight: 700;
+    /* Make the text uppercase, center text */
+    text-transform: uppercase; 
+    text-align: center; 
+}
+
+/* Styling for the h2 tag */
+h2 {
+    /* Align the text to the left, Add top padding, font-weight */
+    font-weight: 500;
+    text-align: left; 
+    padding-top: 15px; 
+}
+
+/* Styling for the address */
+address {
+    /* Make sure the address font style is normal, add top margin , center text */
+    text-align: center; 
+    font-style: normal; 
+    margin-top: 20px; 
+}
+
+/* Styling for the address link */
+address a {
+    /* Make the link bold, increase the font size, set font color, remove underline */
+    font-weight: bold; 
+    font-size: 1.25em;
+    color: #4F3674; 
+    text-decoration: none; 
+}
+
+/* Hover and visited pseudo-classes for the address link */
+address a:hover {
+    /* Underline on hover, background color on hover  */
+    text-decoration: underline; 
+    background-color: #D6A800; 
+}
+
+address a:visited {
+    /* Change the color when visited */
+    color: #800080; 
+}
