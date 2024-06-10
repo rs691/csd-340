@@ -1,0 +1,35 @@
+/* Style for #container */
+#container {
+    margin-top: 50px; /* Set top margin */
+    margin-left: 100px; /* Set left margin */
+    margin-right: 100px; /* Set right margin */
+    margin-bottom: 0; /* Ensure there's no bottom margin unless you need it */
+    
+}
+
+/* Style for h1, h2, h3, h4 tags */
+h1, h2, h3, h4 {
+    background-color: #4F3674; /* Background color: Bellevue colors*/
+    color: #FFFFFF; /* Font color: white, for good contrast with the background */
+    border: 1px solid #D6A800; /* Border with specified color */
+    padding: 10px; /* Padding inside the element */
+    margin: 10px 0; /* Add some vertical margin to space out the headings */
+}
+
+/* Style for anchor tags */
+a {
+    color: #4F3674; /* Link color matching the color scheme */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Style for anchor tag on hover */
+a:hover {
+    color: #D6A800; /* Color for link when hovered */
+    
+}
+
+/* Style for anchor tag when visited */
+a:visited {
+    color: #FF3FA4; /* A complementary color for visited links */
+    
+}
