@@ -1,0 +1,83 @@
+/* Center the h1 title on the page */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for the container div */
+#container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width calculations */
+}
+
+/* Ensure divs are 45% width and side-by-side */
+.left-div, .right-div {
+    
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    padding: 10px; /* Add padding to ensure content is nicely spaced */
+    border-radius: 15px;
+}
+
+/* Ensure the side-by-side divs are positioned correctly */
+.left-div {
+    width: 45%;
+    margin-right: 5%;
+    border: 1px solid red; /* Border for left div including h3 and ol */
+}
+
+.right-div {
+    width: 45%;
+    margin-left: 0;
+    border: 1px dashed red; /* Border for right div including h3 and ul */
+}
+
+/* Set h3 weight */
+h3 {
+    font-weight: 500;
+   
+  
+}
+
+/* Set list weight */
+ol {
+    font-weight: 300;
+    padding: 10px;
+   
+}
+ul{
+    font-weight: 300;
+   
+}
+
+/* Style for ordered list (favorite books) */
+.left-div ol {
+    list-style-position: inside;
+}
+
+/* Style for unordered list  */
+.right-div ul {
+    list-style: upper-roman;
+    list-style-position:outside;
+}
+
+/* Override default link styles */
+a {
+    text-decoration: none;
+    color: #0000FF; /* Blue color for links */
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Float the bottom div link to the right and give it a margin-bottom */
+.bottom-div{
+    float: right;
+    margin-top:60%;
+    margin-bottom: 20px;
+}
