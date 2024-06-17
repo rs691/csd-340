@@ -1,0 +1,70 @@
+
+/* style for the main container */
+#container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+
+/*center the h1 text */
+h1 {
+    text-align: center;
+    color:  rgba(255, 0, 0, 1);
+
+}
+/* Added to make all three images the same size */
+.img{
+    width: 204px;
+    height: 192px;
+
+}
+
+/* Style for the image gallery container */
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three equal columns */
+    gap: 20px;
+    margin-top: 10%;
+}
+
+/*style for each image section */
+.image-section {
+    text-align: center;
+    border: 1px solid  rgba(255, 0, 0, 1);  
+    padding: 10px;
+}
+
+/*center the h3 text */
+h3 {
+    text-align: center;
+    color:  rgba(255, 0, 0, 1);
+}
+
+/*style for the figure tag */
+figure {
+    text-align: center;
+}
+
+/*style for the figure caption */
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color:  rgba(255, 0, 0, 1)
+  
+}
+
+/*style for the bottom link */
+.bottom-link {
+    margin-top: 60px;
+    text-align: right;
+}
+
+.bottom-link a {
+    text-decoration: none;
+    color: rgba(50, 50, 250, 1);
+
+}
+
+.bottom-link a:hover {
+    text-decoration: underline;
+}

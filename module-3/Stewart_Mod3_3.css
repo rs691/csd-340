@@ -33,6 +33,7 @@ h1 {
     width: 45%;
     margin-left: 0;
     border: 1px dashed red; /* Border for right div including h3 and ul */
+    height: 300px;
 }
 
 /* Set h3 weight */
@@ -78,6 +79,7 @@ a:hover {
 /* Float the bottom div link to the right and give it a margin-bottom */
 .bottom-div{
     float: right;
-    margin-top:60%;
-    margin-bottom: 20px;
+    margin-top: 60px;
+ 
+ 
 }
