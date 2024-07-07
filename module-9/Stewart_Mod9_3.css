@@ -1,0 +1,41 @@
+body{
+    padding:20px;
+}
+
+
+p{
+    margin: 10px;
+}
+button{
+   min-width: 130px;
+   text-align: center;
+}
+
+/* Styling for the address */
+address {
+    /* Make sure the address font style is normal, add top margin , center text */
+    text-align: center; 
+    font-style: normal; 
+    margin-top: 20px; 
+}
+
+/* Styling for the address link */
+address a {
+    /* Make the link bold, increase the font size, set font color, remove underline */
+    font-weight: bold; 
+    font-size: 1.25em;
+    color: #4F3674; 
+    text-decoration: none; 
+}
+
+/* Hover and visited pseudo-classes for the address link */
+address a:hover {
+    /* Underline on hover, background color on hover  */
+    text-decoration: underline; 
+    background-color: #D6A800; 
+}
+
+address a:visited {
+    /* Change the color when visited */
+    color: #800080; 
+}

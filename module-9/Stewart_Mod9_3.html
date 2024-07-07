@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Requirement 1 - meta tags-->
+    <meta charset="UTF-8">
+    <meta name="description" content="CSD340 Web Development with HTML and CSS">
+    <meta name="keywords" content="HTML, CSS, Fonts">
+    <meta name="author" content="Robert Stewart">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Stewart_Mod9_3.css">
+
+    <title>CSD 340 Development with HTML and CSS</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <h2>Chapter 9: JavaScript</h2>
+
+        <p>
+            "The foundation for all power is <span id="understanding">_________</span> this fundamental truth: Human
+            emotions are predictable.
+            People are creatures of habit, their responses guided by a limited set of basic needs and desires.
+            Once you understand these needs and desires, you can manipulate them to your advantage." (This isn't
+            inherently
+            negative; it's about understanding human behavior)
+        </p>
+        <button type="button"
+            onclick="document.getElementById('understanding').innerHTML = firstVariableValue">understanding</button>
+        <p>
+            "Master the art of self-presentation. Your appearance, words, and actions all contribute to the image you
+            project to the world.
+            Cultivate a persona that is both powerful and <span id="appealing">_________</span>. Strive for an air of
+            mystery and confidence, but also project warmth and approachability.
+            Remember, you are not just a person; you are a brand." (This emphasizes personal branding and presentation)
+        </p>
+        <button type="button"
+            onclick="document.getElementById('appealing').innerHTML = secondVariableValue">appealing</button>
+        <p>
+            "Become a master networker. The connections you make are your greatest asset. Surround yourself with
+            influential people who can help you achieve your goals. Build <span id="relationships">_________</span>
+            based on mutual benefit, and
+            always be generous with your time and resources.
+            Remember, the more people who owe you favors, the more powerful you become." (This highlights the importance
+            of networking and building positive relationships)
+        </p>
+        <button type="button"
+            onclick="document.getElementById('relationships').innerHTML = thirdVariableValue">relationships</button>
+        <p>
+            "Develop an unwavering sense of purpose. Those who lack direction are easily swayed by the opinions and
+            desires of <span id="others">_________</span>.
+            To be truly powerful, you must have a clear vision for what you want to achieve. This vision will serve as
+            your guiding star,
+            allowing you to navigate the complexities of the world with focus and
+            determination.
+            It will also inspire others to follow your lead, as they recognize the strength of your convictions."
+            (This paragraph emphasizes the importance of having a strong vision and purpose, which are positive
+            qualities for achieving success.)
+        </p>
+        <button type="button"
+            onclick="document.getElementById('others').innerHTML = fourthVariableValue">others</button>
+
+    </div>
+    <address>
+        <p><a href="https://www.bellevue.edu">Bellevue University</a></p>
+        <p>1000 Galvin Road South</p>
+        <p>Bellevue, Nebraska 68005</p>
+    </address>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
