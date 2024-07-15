@@ -1,8 +1,3 @@
-const hoverArea = document.querySelector('.hover-area');
-const flower = document.querySelector('.flower');
-const stem = document.querySelector('.stem');
-const bloom = document.querySelector('.bloom');
-
 const initialHeight = 80; // Match the initial stem height in CSS
 const maxHeight = 500;
 const growthStep = 5;
@@ -56,5 +51,3 @@ function updateFlower(height) {
     document.documentElement.style.setProperty('--stem-height', `${height}px`);
     document.documentElement.style.setProperty('--bloom-translate', `-${height}px`);
 }
-
-hoverArea.addEventListener('click', toggleFlower);

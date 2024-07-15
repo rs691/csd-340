@@ -1,7 +1,7 @@
 :root {
     --flower-size: 1.2;
-    --stem-height: 80px; /* Match initial height with JS */
-    --bloom-translate: -80px; /* Match initial translate with JS */
+    --stem-height: 80px; 
+    --bloom-translate: -80px; 
    
   }
   h1, h2, h3{
@@ -14,7 +14,7 @@
 
   h3{
     font-size: 40px;
-    animation-duration: 5s; /* don't forget to set a duration! */
+    animation-duration: 5s; 
 }
   
   .flower-container {
@@ -29,14 +29,14 @@
    
   }
   
-  .hover-area {
+  .click-area {
     position: absolute;
-    width: 210px; /* Set the width to cover the flower and stem area */
-    height: 80vh; /* Full height of the screen */
+    width: 210px; 
+    height: 80vh; 
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 10; /* Ensure it's on top for capturing events */
+    z-index: 10; 
     cursor: url(../images/cloud.svg) 4 12, auto;
   }
 
@@ -44,7 +44,7 @@
     position: relative;
     transform: scale(var(--flower-size));
     transition: transform 1s ease;
-    z-index: 1; /* Send flower behind dirt */
+    z-index: 1; 
   }
 
   .bloom {
@@ -91,7 +91,7 @@
     transform-origin: bottom center;
     transition: height 1.2s ease, transform 1.2s ease;
     height: var(--stem-height);
-    z-index: 0; /* Send stem behind flower */
+    z-index: 0; 
   }
   
 
@@ -102,7 +102,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 2; /* Bring dirt in front of flower and stem */
+    z-index: 2; 
   }
 
   /* Responsive design */
