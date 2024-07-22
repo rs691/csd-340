@@ -1,4 +1,4 @@
-const initialHeight = 80; // Match the initial stem height in CSS
+const initialHeight = 80; 
 const maxHeight = 500;
 const growthStep = 5;
 
